@@ -22,7 +22,7 @@
  */
 
 import $ from 'jquery';
-import { saveWidgetConfig } from 'local_accessibility/common';
+import {saveWidgetConfig} from 'local_accessibility/common';
 
 /**
  * Initialisation
