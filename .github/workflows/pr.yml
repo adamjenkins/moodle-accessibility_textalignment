@@ -10,9 +10,9 @@ on:
 jobs:
   ci:
     name: CI
-    uses: ponlawat-w/moodle-local_accessibility/.github/workflows/ci.yml@master
+    uses: adamjenkins/moodle-local_accessibility/.github/workflows/ci.yml@master
     with:
-      widget-additional: ponlawat-w/moodle-accessibility_textalignment
+      widget-additional: adamjenkins/moodle-accessibility_textalignment
       widget-additional-name: textalignment
       widget-additional-ref: ${{ github.ref }}
   ci-finished:
